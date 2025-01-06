@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iffrahim Sarfraz - Portfolio</title>
+
+  <link rel="icon" href="public/image.png" type="image/png">
+  <!-- let us link our external styles.css file here in the head -->
+  <link href="styles.css" rel="stylesheet">
+  <!-- this is the inter font that I will be using for this page -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- below is the fontawesome link tag -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body id="top-of-page">
+  <!-- I willcreate a div that will have an underlay class, meaning I will use this div to control the hue of the background color of the page. -->
+  <div class="underlay"></div>
+  <!-- we will first design our webpage for the smaller(phone) screens because it's easier to make it resposnive for web from a small screen, then to go from a big screen to a small screen.  -->
+
+  <header>
+    <!-- I will make Iffrahim Sarfraz an anchor text by wrapping it in a anchor tag, that links to the webpage itself. -->
+    <a href="/">
+      <h1>Iffrahim Sarfraz</h1>
+    </a>
+    <h4>Frontend Developer</h4>
+    <p id="header-p">A creative junior frontend developer who turns ideas into sleek, responsive web designs. Always
+      learning, always
+      building — because good enough is never enough!</p>
+
+    <!-- now I will add a nav bar which has three anchor tag(about, experience, and Projects) having p tags in them with their relevent Textcontent. -->
+    <nav class="navbar">
+      <a href="#about" class="anchor-text">
+        <p>About</p>
+      </a>
+
+      <a href="#experience" class="anchor-text">
+        <p>Experience</p>
+      </a>
+
+      <a href="#projects" class="anchor-text">
+        <p>Projects</p>
+      </a>
+    </nav>
+
+    <!-- now after the nav stuff done, we will have a div tag that will have our icons jot in, which essentially are anchor tag with icons that link to the relevent site on web. e.g, your github profile etc.  -->
+    <div class="social-link-container">
+      <a class="social-link" href="https://www.linkedin.com/in/iffrahim-sarfraz-19b792304" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="social-link" href="https://github.com/Deadmortty" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+    <!-- and with that our header section is finished, at least HTML wise.  -->
+
+  </header>
+<hr>
+  <main>
+    <!-- for the main part of the webpage, we would have our three three main sections(About, Experience, and Projects) -->
+
+    <section id="about">
+      <div class="sticky-header">
+        <h2 class="lighter-text">About</h2>
+      </div>
+
+      <div class="about-content">
+        <p> Aspiring web developer with a strong foundation in HTML, CSS, and JavaScript, eager to apply knowledge and
+          grow through challenging opportunities. Passionate about creating user-friendly web interfaces, mastering
+          React, and gaining hands-on experience in building responsive, intuitive applications. </p>
+
+        <p>After completing my A-level, I took the initiative to learn programming and web development independently.
+          This self-driven learning journey has allowed me to acquire essential technical skills and build projects that
+          lay the groundwork for my future academic and professional success.</p>
+      </div>
+
+      <div class="technicalskills-content">
+        <h3>Technical Skills:</h3>
+        <ul class="list-content">
+          <li><b>Languages:</b> JavaScript</li>
+          <li><b>Framework:</b> React</li>
+          <li>HTML, CSS</li>
+          <li>Git & GitHub</li>
+          <li>OOP & Functional Programming</li>
+        </ul>
+      </div>
+    </section>
+    <hr>
+
+    <section id="experience">
+      <div class="sticky-header">
+        <h2 class="lighter-text">Experience</h2>
+      </div>
+
+      <div class="experience-content">
+
+        <div class="experience-card">
+          <p class="tenure">Dec 2024 — Present</p>
+          <div class="card-column">
+
+            <h4>Frontend Developer at <b><a target="_blank" href="https://devoraone.com/"
+                  class="anchor-text">DevoraOne</a></b>: ICON</h4>
+
+            <p>Currently working as a Frontend Developer, building dynamic, responsive web applications with React,
+              JavaScript, and CSS. Collaborating with cross-functional teams to create user-focused interfaces while
+              continuously improving performance and accessibility.</p>
+
+
+
+            <div class="tag-container">
+              <div class="tag">
+                <p>HTML</p>
+              </div>
+
+              <div class="tag">
+                <p>SCSS</p>
+              </div>
+
+              <div class="tag">
+                <p>JavaScript</p>
+              </div>
+
+              <div class="tag">
+                <p>React.js</p>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+ 
+        <div class="experience-card">
+          <p class="tenure">Dec 2023 — May 2024</p>
+          <h4>Content Strategist at <b><a target="_blank" href="https://pinionnewswire.com/" class="anchor-text">Pinion
+                Newswire</a></b>: ICON</h4>
+
+          <p>Gained expertise in crafting and distributing engaging press releases while honing SEO skills. Analyzed
+            content performance metrics to drive impactful campaigns, showcasing a data-driven approach to
+            communication.</p>
+          <ul class="list-content">
+            <li>Developed strong SEO skills, enhancing web visibility.</li>
+            <li>Tracked and analyzed content performance, focusing on effective distribution strategies.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="" class="anchor-text">
+        <p>View Full Resume ICON</p>
+      </a>
+    </section>
+    <hr>
+
+    <section id="projects">
+      <div class="sticky-header">
+        <h2 class="lighter-text">Projects</h2>
+      </div>
+
+      <div class="projects-content">
+        <div class="project-card">
+          <div class="project-image-container">
+
+            <img src="public/face2.jpg" alt="project-image">
+          </div>
+          <div class="card-column">
+
+            <h4>To-Do App:<b><a target="_blank" href="/" class="anchor-text"> </a></b></h4>
+            <ul class="list-content">
+              <li> Developed a fully functional to-do app using HTML, CSS, and JavaScript.</li>
+              <li> Features: Add, edit, delete tasks; task prioritization; due dates; responsive design.</li>
+              <li>Focused on client-side development and building user-centric applications.</li>
+            </ul>
+            <div class="tag-container">
+              <div class="tag">
+                <p>HTML</p>
+              </div>
+
+              <div class="tag">
+                <p>SCSS</p>
+              </div>
+
+              <div class="tag">
+                <p>JavaScript</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+ 
+        <div class="project-card">
+          <div class="project-image-container">
+
+            <img src="public/face3.jpg" alt="project-image">
+          </div>
+          <div class="card-column">
+
+            <h4>Calculator App:<b><a target="_blank" href="/" class="anchor-text"> </a></b></h4>
+            <ul class="list-content">
+              <li> Developed a fully functional Calculator App using HTML, CSS, and JavaScript.</li>
+              <li> Features: Perform basic arithmetic operations; clear and intuitive interface; responsive design for seamless use across devices.</li>
+              <li> Focused on client-side development and ensuring accurate, user-centric calculation.</li>
+            </ul>
+            <div class="tag-container">
+              <div class="tag">
+                <p>HTML</p>
+              </div>
+
+              <div class="tag">
+                <p>SCSS</p>
+              </div>
+
+              <div class="tag">
+                <p>JavaScript</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- <h3>To-Do App:</h3>
+        <ul class="list-content">
+          <li> Developed a fully functional to-do app using HTML, CSS, and JavaScript.</li>
+          <li> Features: Add, edit, delete tasks; task prioritization; due dates; responsive design.</li>
+          <li>Focused on client-side development and building user-centric applications.</li>
+        </ul> -->
+      </div>
+      <a href="" class="project-archive-link">
+        <p>View Full Project Archive  <span class="right-arrow">&rarr;</span>
+        </p>
+      </a>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <footer>
+
+    <p>
+      Coded in <a target="_blank" href="https://code.visualstudio.com/" class="anchor-text">Visual Studio Code</a> by yours truly. Styled with CSS and deployed with <a href="https://github.com/explore" target="_blank" class="anchor-text">Github.</a><br>
+      <b>Note:</b> Backend to be integrated later.
+     </p>
+
+     <a href="#top-of-page" class="scroll-to-top">
+<i class="fa-solid fa-arrow-up"></i>
+     <a>
+  </footer>
+</body>
+
+</html>
